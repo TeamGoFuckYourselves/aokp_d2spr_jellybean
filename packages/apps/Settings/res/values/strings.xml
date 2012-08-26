@@ -1167,7 +1167,10 @@
     <!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
     <string name="android_beam_explained">When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam Browser pages, YouTube videos, People contacts, and more.\n\nJust bring the devices together (typically back to back) and then touch your screen. The app determines what gets beamed.</string>
     <string name="nfc_polling_mode_title">NFC polling mode</string>
-    <string name="nfc_polling_mode_summary">Configure the minimum requirement to actually enable NFC</string>
+    <string name="nfc_polling_mode_screen_off">Screen off</string>
+    <string name="nfc_polling_mode_screen_locked">Screen on, locked</string>
+    <string name="nfc_polling_mode_screen_unlocked">Screen on, unlocked (default)</string>
+
 
     <!-- Network service discovery settings -->
     <!-- Used in the 1st-level settings screen to turn on NSD -->
@@ -2870,10 +2873,13 @@
     <!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
     <string name="development_settings_summary">Set options for app development</string>
     <!-- Setting checkbox title for Whether to enable USB debugging support on the phone. -->
-    <string name="enable_adb">USB debugging</string>
+    <string name="enable_adb">Android debugging</string>
     <!-- Setting checkbox summary for Whether to enable USB debugging support on the phone -->
-    <string name="enable_adb_summary">Debug mode when USB is connected</string>
-    <!-- Setting Checkbox title whether to keep the screen on when plugged in to a power source -->
+    <string name="enable_adb_summary">Allow Android debug mode, the adb interface on USB (or on network)</string>
+    <!-- Setting checkbox summary for displaying USB debugging notification -->
+    <string name="adb_notify">USB debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+
     <string name="keep_screen_on">Stay awake</string>
     <!-- setting Checkbox summary whether to keep the screen on when plugged in  -->
     <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
@@ -4186,4 +4192,17 @@
     <!-- time range preference -->
     <string name="start_time_title">Start</string>
     <string name="end_time_title">End</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
+    <!-- USB Mass Storage -->
+    <string name="usb_mass_storage_title">Mass Storage</string>
+    <string name="usb_mass_storage_summary">Enable USB mass storage</string>
+    
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB over network</string>
+    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network !\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
 </resources>
