@@ -21,10 +21,6 @@
 # lines, full and maguro, hence its name.
 #
  
-# Torch
-PRODUCT_PACKAGES := \
-    Torch
-
 # Extra Apps and files
 PRODUCT_COPY_FILES += \
     vendor/samsung/d2spr/Alert-SonarMerge.mp3:system/media/audio/notifications/Alert-SonarMerge.mp3 \
