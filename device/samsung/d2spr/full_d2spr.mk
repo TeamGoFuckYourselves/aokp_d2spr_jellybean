@@ -25,6 +25,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/d2spr/Alert-SonarMerge.mp3:system/media/audio/notifications/Alert-SonarMerge.mp3 \
     vendor/samsung/d2spr/CyanPing.ogg:system/media/audio/notifications/CyanPing.ogg \
+    vendor/samsung/d2spr/com.aokp.ota.apk:system/app/com.aokp.ota.apk \
     vendor/samsung/d2spr/IphoneCellSoundMerge.mp3:system/media/audio/ringtones/IphoneCellSoundMerge.mp3
 
 # Copy Animation Files
