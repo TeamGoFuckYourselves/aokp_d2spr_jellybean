@@ -26,7 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
 #APN Copy	  	
 PRODUCT_COPY_FILES := device/sample-d2spr/etc/apns-conf.xml:system/etc/apns-conf.xml
 
-
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
 
