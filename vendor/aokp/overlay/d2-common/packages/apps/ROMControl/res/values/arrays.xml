@@ -12,6 +12,7 @@
 		<item>SYNC</item>
 		<item>DATA</item>
 		<item>2G</item>
+                <item>LTE</item>
 		<item>AP</item>
 		<item>TETHER</item>
 		<item>TORCH</item>
@@ -30,6 +31,7 @@
 		<item>@string/toggle_sync</item>
 		<item>@string/toggle_data</item>
 		<item>@string/toggle_2g</item>
+                <item>@string/toggle_lte</item>
 		<item>@string/toggle_wifi_ap</item>
 		<item>@string/toggle_usb_tether</item>
 		<item>@string/toggle_torch</item>
